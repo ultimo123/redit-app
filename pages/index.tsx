@@ -3,17 +3,15 @@ import PostBox from '../components/PostBox'
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="mx-auto my-7 max-w-5xl">
       <Head>
         <title>Redit App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* {PostBox} */}
-
       <PostBox />
 
-      <div>{/* Feed */}</div>
+      <div className="flex">{/* Feed */}</div>
     </div>
   )
 }
