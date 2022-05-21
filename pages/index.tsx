@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Feed from '../components/Feed'
 import PostBox from '../components/PostBox'
 
 const Home = () => {
@@ -11,7 +12,9 @@ const Home = () => {
 
       <PostBox />
 
-      <div className="flex">{/* Feed */}</div>
+      <div className="flex">
+        <Feed />
+      </div>
     </div>
   )
 }
